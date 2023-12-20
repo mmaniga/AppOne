@@ -15,6 +15,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import FlatCards from './Components/FlatCards';
 import ElevatedCards from './Components/ElevatedCards';
+import FancyCards from './Components/FancyCards';
 
 
 function App(): React.JSX.Element {
@@ -29,6 +30,7 @@ function App(): React.JSX.Element {
       <ScrollView>
       <FlatCards/>
       <ElevatedCards/>
+      <FancyCards />
       </ScrollView>
      
     </SafeAreaView>
